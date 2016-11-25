@@ -23,8 +23,8 @@ This is a VERY simple and quick hack. No external libraries are used, parsing is
 It can print out web map to console and to a specified text file.
 
 To properly do it I would consider: 
-1. using one of the accessible open source libraries for HTML parsing (such as JSoup) taking into consideration license, performance, bus factor, etc.
-2. do it by using multithreading so we can open URL's using multiple connections at once. In this case I would put a default cap with an optional argument so we don't get the torrent effect and kill the network
-3. In a more advanced scenario we could add links filters as optional regex arguments, provide interfaces for the user to implement his own, provide more output scenarios (database connectors, formatting) etc.
+- using one of the accessible open source libraries for HTML parsing (such as JSoup) taking into consideration license, performance, bus factor, etc.
+- do it by using multithreading so we can open URL's using multiple connections at once. In this case I would put a default cap with an optional argument so we don't get the torrent effect and kill the network
+- In a more advanced scenario we could add links filters as optional regex arguments, provide interfaces for the user to implement his own, provide more output scenarios (database connectors, formatting) etc.
 
 There are also other possibilities, but those 3 would be basic ones to start from the existing code.
