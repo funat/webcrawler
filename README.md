@@ -12,7 +12,7 @@ It has minimum 2, maximum 3 arguments. Arguments are:
 - level
 - file path (optional)
 
-There are no switches, just ordered arguments. Example would be
+There are no switches, just ordered arguments. Also almost no checks - so it could blow up if args are not correct. Examples would be
 - java -cp C:\Users\alen\workspace\webcrawler\bin alen.test.webcrawler.WebCrawler http://wiprodigital.com 2 
 - java -cp C:\Users\alen\workspace\webcrawler\bin alen.test.webcrawler.WebCrawler http://wiprodigital.com 2 E:\\webmap.txt.
 
